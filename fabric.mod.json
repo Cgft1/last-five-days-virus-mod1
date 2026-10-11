@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "last_five_days",
+  "version": "${version}",
+  "name": "Последние 5 дней: Неизвестный вирус",
+  "description": "Выживи пять игровых дней и собери компоненты экспериментального лекарства.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.lastfivedays.LastFiveDaysMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
